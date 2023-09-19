@@ -1,11 +1,12 @@
-import PropTypes from 'prop-types';
-import React from 'react';
-import Link from 'next/link';
-import NavButtonContainer from '../../containers/NavButtonContainer';
-import { getNavigation } from '../../constants/NavigationList';
+import PropTypes from "prop-types";
+import React from "react";
+import Link from "next/link";
+import NavButtonContainer from "../../containers/NavButtonContainer";
+import { getNavigation } from "../../constants/NavigationList";
 
 const DesktopNavbar = (props) => {
-  const { children, color, secondcolor, isAdmin, activeName, isLoggedIn } = props;
+  const { children, color, secondcolor, isAdmin, activeName, isLoggedIn } =
+    props;
 
   return (
     <div
@@ -101,15 +102,18 @@ const DesktopNavbar = (props) => {
 DesktopNavbar.propTypes = {
   color: PropTypes.string,
   secondcolor: PropTypes.string,
-  children: PropTypes.oneOfType([PropTypes.arrayOf(PropTypes.node), PropTypes.node]),
+  children: PropTypes.oneOfType([
+    PropTypes.arrayOf(PropTypes.node),
+    PropTypes.node,
+  ]),
   isAdmin: PropTypes.bool,
   activeName: PropTypes.string,
   isLoggedIn: PropTypes.bool,
 };
 
 DesktopNavbar.defaultProps = {
-  color: 'indigo-light',
-  secondcolor: 'indigo-light',
+  color: "indigo-light",
+  secondcolor: "indigo-light",
   // children: <div>Fantasy investr</div>
   children: <div />,
   isAdmin: false,

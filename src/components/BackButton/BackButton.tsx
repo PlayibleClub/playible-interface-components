@@ -1,5 +1,5 @@
-import React from 'react';
-import { BrowserView } from 'react-device-detect';
+import React from "react";
+import { BrowserView } from "react-device-detect";
 
 const BackFunction = (props) => {
   const { prev } = props;
@@ -16,7 +16,7 @@ const BackFunction = (props) => {
 };
 
 BackFunction.defaultProps = {
-  imagesrc: '/images/navicons/icon_back.png',
+  imagesrc: "/images/navicons/icon_back.png",
 };
 
 export default BackFunction;

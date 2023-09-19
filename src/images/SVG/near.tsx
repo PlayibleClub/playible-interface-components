@@ -1,7 +1,7 @@
-import { useState, useEffect } from 'react';
+import { useState, useEffect } from "react";
 
 const SvgComponent = (props) => {
-  const [mode, setMode] = useState('#000');
+  const [mode, setMode] = useState("#000");
 
   return (
     <svg
@@ -9,15 +9,18 @@ const SvgComponent = (props) => {
       height={18}
       fill="none"
       onMouseEnter={() => {
-        setMode('#fff');
+        setMode("#fff");
       }}
       onMouseLeave={() => {
-        setMode('#000');
+        setMode("#000");
       }}
       xmlns="http://www.w3.org/2000/svg"
       {...props}
     >
-      <g clipPath="url(#a)" fill={props.hardCodeMode ? props.hardCodeMode : mode}>
+      <g
+        clipPath="url(#a)"
+        fill={props.hardCodeMode ? props.hardCodeMode : mode}
+      >
         <path
           d="M14.4384 0.914036L10.6769 6.50002C10.6159 6.58065 10.5877 6.68138 10.598 6.78195C10.6083 6.88253 10.6562 6.97548 10.7322 7.04213C10.8081 7.10877 10.9065 7.14416 11.0075 7.14117C11.1085
          7.13818 11.2046 7.09704 11.2765 7.02602L14.978 3.82603C14.9994 3.80645 15.026 3.79356 15.0546 3.78897C15.0832 3.78439 15.1125 3.7883 15.1389 3.80023C15.1652 3.81215 15.1876 3.83157 15.203 3.85606C15.2185
