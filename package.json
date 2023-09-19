@@ -1,7 +1,10 @@
 {
-  "name": "playible-interface-components",
+  "name": "@playibleclub/playible-interface-components",
   "version": "1.0.0",
   "main": "index.ts",
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
