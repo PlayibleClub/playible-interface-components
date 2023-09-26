@@ -2,8 +2,6 @@ import React, { Component, useState, useEffect } from 'react';
 import PropTypes from 'prop-types';
 import Image from 'next/image';
 import moment from 'moment';
-import sampleImage from 'src/images/packimages/Starter.png';
-import { assertDirective } from 'graphql';
 import Link from 'next/link';
 
 const PackComponent = (props) => {
