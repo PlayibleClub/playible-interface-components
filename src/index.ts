@@ -10,3 +10,8 @@ export { GameResultsComponent } from "./components/GameResultsComponent";
 export { LeaderboardComponent } from "./components/LeaderboardComponent";
 export { PrizePoolComponent } from "./components/PrizePoolComponent";
 export { PlayerStats } from "./components/PlayerStats";
+export { Lineup } from "./components/Lineup";
+export { NftTypeComponent } from "./components/NftTypeComponent";
+export { PlayDetailsComponent } from "./components/PlayDetailsComponent";
+export { DesktopHeader } from "./components/DesktopHeader";
+export { Header } from "./components/Header";
