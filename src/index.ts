@@ -15,3 +15,5 @@ export { NftTypeComponent } from "./components/NftTypeComponent";
 export { PlayDetailsComponent } from "./components/PlayDetailsComponent";
 export { DesktopHeader } from "./components/DesktopHeader";
 export { Header } from "./components/Header";
+export { EntrySummaryPopUp } from "./components/EntrySummaryPopup";
+export { AdminGameComponent } from "./components/AdminGameComponent";
